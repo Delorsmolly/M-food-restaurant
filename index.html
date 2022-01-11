@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M'Food</title>
+    <!-- icon sur la fenetre -->
+    <link  href="images/chef.png" rel="icon">
+    <!-- icon sur la fenetre -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- *fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet"> 
+    <!-- owl caroussel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+
+</head>
+<body>
+    <!-- *menu area -->
+    <nav class="menu" >
+       <div class="brand">
+            <h5><img src="images/chef.png " width="40px" alt=""> <span class="color">M</span>'Food</h5>
+       </div>
+       <div class="page-link">
+           <ul>
+               <li><a href="#about">About</a></li>
+               <li><a href="#dish-area">Dishes</a></li>
+               <li><a href="#experts">Experts</a></li>
+               <li><a href="#testimonials">Testimonials</a></li>
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+       </div>
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+       <!-- <button type="submit" class="click">Contact</button> -->
+    </nav>
+    <nav class="mobile">
+     <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Service</a></li>
+     </ul>
+    </nav>
+   <!-- !menu end --> 
+   <!-- banner start -->
+   <section id="banner-area" class="center flex">
+       <h1><span class="color">M</span>'FOOD, fast delivered</h1>
+       <p>
+           Lorem ipsum dolor sit amet consectetustiaeiciendis, dolore nobis ex perferendis nesciunt consectetur inventore,  
+       </p>
+       <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing 
+       </p>
+       <button></button>
+    <!-- wave part star -->
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L60,176C120,160,240,128,360,117.3C480,107,600,117,720,138.7C840,160,960,192,1080,181.3C1200,171,1320,117,1380,90.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    <!-- wave part star -->
+   </section>
+    <!-- banner start -->
+
+    <!-- about start -->
+    <section id="about" class="center">
+        <div class="about-infos center" >
+            <div class="content">
+                <h1 class="title"><span class="color">A</span>bout <span class="color">M</span>'food</h1>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit est dolor provident odit ad aspernatur mollitia ratione a minus rem voluptatem voluptas sapiente laboriosam enim iste tempora, voluptate dolores dolorem autem ex ullam nulla ipsa. Sequi tenetur facilis itaque aliquam perferendis nobis eum voluptatum illo accusamus, nemo asperiores rerum tempora ipsam. Voluptatibus sit deserunt veritatis similique itaque molestias velit magnam cupiditate est inventore. Neque sequi aut, repellat molestiae iste similique officia voluptate modi facilis error quod saepe vitae optio sunt, mollitia excepturi minima dolorem. Voluptate laudantium quibusdam a! Consequuntur, minus vero. A impedit repudiandae quae atque blanditiis vel autem!
+                </p>
+                <button type="submit" class="btn">Place an Other</button>
+            </div>
+            
+             <img src="images/dishes/2.jpg" alt="" >
+        </div>
+    </section>
+    <!-- about start -->
+
+    <!-- dishes area start -->
+    <section id="dish-area" class="center">
+        <div class="dish-content center flex" >
+            <h1 class="title"><span class="color">O</span>ur <span class="color">D</span>ishes</h1><br>
+            <div class="top-dishes">
+                <!-- all cards start -->
+                <div class="dish-card center flex">
+                    <div class="dish-img"><img src="images/dishes/1.jpg" alt="" onclick="show('images/dishes/1.jpg','🥮 cake')"></div>
+                    <div class="dish-info flex">
+                        <h2>🥮 cake</h2>
+                        <span style="color: gold; font-size: 20px;"><i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Oders</button>
+                    </div>
+                </div>
+                <div class="dish-card center flex">
+                    <div class="dish-img"><img src="images/dishes/2.jpg" alt="" onclick="show('images/dishes/2.jpg','🐔 chicken')"></div>
+                    <div class="dish-info flex">
+                        <h2>🐔 chicken</h2>
+                        <span style="color: gold; font-size: 20px;"><i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Oders</button>
+                    </div>
+                </div>
+                <div class="dish-card center flex">
+                    <div class="dish-img"><img src="images/dishes/3.jpg" alt="" onclick="show('images/dishes/3.jpg','🥗 salad')"></div>
+                    <div class="dish-info flex">
+                        <h2>🥗 salad</h2>
+                        <span style="color: gold; font-size: 20px;"><i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Oders</button>
+                    </div>
+                </div>
+                <div class="dish-card center flex">
+                    <div class="dish-img"><img src="images/dishes/4.jpg" alt="" onclick="show('images/dishes/4.jpg','🍖 meat')"></div>
+                    <div class="dish-info flex">
+                        <h2>🍖 meat</h2>
+                        <span style="color: gold; font-size: 20px;"><i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Oders</button>
+                    </div>
+                </div>
+                <div class="dish-card center flex">
+                    <div class="dish-img"><img src="images/dishes/5.jpg" alt=""onclick="show('images/dishes/5.jpg','🍝 spaghetti')"></div>
+                    <div class="dish-info flex">
+                        <h2>🍝 spaghetti</h2>
+                        <span style="color: gold; font-size: 20px;"><i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Oders</button>
+                    </div>
+                </div>
+                <div class="dish-card center flex">
+                    <div class="dish-img"><img src="images/dishes/6.jpg" alt="" onclick="show('images/dishes/6.jpg','rice🍘')"></div>
+                    <div class="dish-info flex">
+                        <h2>rice🍘 </h2>
+                        <span style="color: gold; font-size: 20px;"><i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Oders</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal center">
+            <i class="fa fa-times" onclick="hide('.')" aria-hidden="true"></i>
+            <img id="modalImg" src="images/dishes/1.jpg" alt="" width="100%">
+            <div class="modal-info">
+                <h1 id="title">Cake</h1>
+                <h2>1500 FCFA <small>2000 FCFA </small></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates?</p>
+                <span><i class="fa fa-truck" aria-hidden="true"></i></span>
+                <span><i class=" fa fa-check-circle"></i></span>
+                <span><i class="fa fa-tags"></i></span>
+            </div>
+        </div>
+        <span class="overlay">
+            
+        </span>
+    </section>
+    <!-- dishes area end -->
+
+    <!-- expert part start  -->
+    <section id="experts" class="center flex">
+        <h1 class="title" style="color: #fff;"><span class="color">Ex</span>pert<span class="color">Te</span>am</h1><br>
+        <div class="team center">
+            <!-- card -->
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="images/chefs/1.jpg" alt="">
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-github"></i>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h1>Mathurin Wansi</h1>
+                    <span>Chief Executive Officer</span>
+                </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="images/chefs/2.jpg" alt="">
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-github"></i>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h1>Mathurin Wansi</h1>
+                    <span>Chief Executive Officer</span>
+                </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="team-card">
+                <div class="team-img">
+                    <div class="team-img">
+                        <img src="images/chefs/3.jpg" alt="">
+                        <div class="social">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h1>Mathurin Wansi</h1>
+                    <span>Chief Executive Officer</span>
+                </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="images/chefs/4.jpg" alt="">
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-github"></i>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h1>Mathurin Wansi</h1>
+                    <span>Chief Executive Officer</span>
+                </div>
+            </div>
+            <!-- card -->
+        </div>
+    </section>
+    <!-- expert part end  -->
+
+    <!-- testimmonial start -->
+    <section id="testimonials">
+        <div class="testi-content">
+            <h1 class="title" style="color: #fff;"><span class="color">Tes</span>monials</h1><br>
+            <div class="owl-carousel owl-theme">
+                <div class="item center flex">
+                    <div class="testi-img">
+                        <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials/testimonials-1.jpg" alt="">
+                    </div>
+                    <h4>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor , auptates voluptatum, nam dolosentium optio eveniet inventore qui nihil? Dolore quos quas et libero.<i class="fa fa-quote-right" aria-hidden="true"></i>
+
+                    </h4>
+                </div>
+                <div class="item center flex">
+                    <div class="testi-img">
+                        <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials/testimonials-2.jpg" alt="">
+                    </div>
+                    <h4>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor , auptates voluptatum, nam dolosentium optio eveniet inventore qui nihil? Dolore quos quas et libero.<i class="fa fa-quote-right" aria-hidden="true"></i>
+
+                    </h4>
+                </div>
+                <div class="item center flex">
+                    <div class="testi-img">
+                        <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials/testimonials-3.jpg" alt="">
+                    </div>
+                    <h4>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor , auptates voluptatum, nam dolosentium optio eveniet inventore qui nihil? Dolore quos quas et libero.<i class="fa fa-quote-right" aria-hidden="true"></i>
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimmonial end -->
+
+    <!-- contact start -->
+    <section id="contact" class="center flex" >
+       <div class="contact-info">
+        <div class="contact-content center">
+            <div class="map">
+               
+                <img src="images/contact1.jpg" class="form-img" alt="" width="100%" height="auto">
+            </div>
+            <div class="form center flex">
+                <h1 class="title"><span class="color">Con</span>tact Us</h1><br>
+                <div class="address center">
+                    <div>
+                        <h4>
+                            Address <br>
+                            A108 adam street, cameroon
+                        </h4>
+                    </div>
+                    <div>
+                        </h4>
+                            Phone Number <br>
+                            +1 5589 55488 55
+                        </h4>
+                    </div>
+                    <div>
+                        <h4>
+                            Email <br>
+                            info@example.com
+                        </h4>
+                    </div>
+                    
+                </div>
+                <form action="#" method="post" class="center flex">
+                    <input type="text" name="nom" id="" placeholder="entrez votre nom et prenom" required>
+                    <input type="text" name="numero" placeholder="entrez votre numero" required>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="enntrez votre message" required></textarea>
+                    <button type="submit" class="btn">Envoyez</button>
+                </form>
+ 
+            </div>
+           
+        </div>
+       
+    <div class="contact-content x">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7959.542913582598!2d9.7508953!3d4.0669375!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sfr!2scm!4v1641551358112!5m2!1sfr!2scm" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="contact-map"></iframe>
+    </div>
+       </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <section id="footer" class="center flex">
+        <div class="footer-top center flex">
+            <h5><img src="images/chef.png " width="40px" alt=""> <span class="color">M</span>'Food</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ea pariatur placeat esse, adipisci est.</p>
+            <span>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="footer-bottom center flex">
+            Copyright ©️ 2021. Designed by Molly Longbeke
+        </div>
+    </section>
+    <!-- footer end -->
+   
+ <script src="js/jquery.1.11.1.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+ <script src="js/main.js"></script>
+    
+ </script>
+</body>
+</html>
