@@ -53,6 +53,23 @@
                                 }
                             }
                         });
+                        // show and hide arrow top
+                        $(windows).scroll(function(){
+                            if($(this).scrollTop()>100){
+                                $('.back-to-top').fadeIn(1000);
+                            }
+                            else{
+                                $('.back-to-top').fadeOut(1000);
+                            }
+                        });
+                        // show and hide arrow top end
+
+                        $('.back-to-top').click(function(){
+                            $('html, body').animate({scrollTop:0},2000, function(){
+                                alert('hey')
+                            })
+                        })
+                        
                 // end
                 
             });
