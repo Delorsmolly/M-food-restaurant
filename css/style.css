@@ -498,8 +498,10 @@ textarea{
 	height: 40px;
 	width: 40px;
 	background-color: #000;
-	color: #e00c4c;
+	color: #fff;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: fixed;
 	bottom: 100px;
 	right: 30px;
