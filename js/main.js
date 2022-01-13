@@ -65,9 +65,7 @@
                         // show and hide arrow top end
 
                         $('.back-to-top').click(function(){
-                            $('html, body').animate({scrollTop:0},2000, function(){
-                                alert('hey')
-                            })
+                            $('html, body').animate({scrollTop:0},2000)
                         })
                         
                 // end
